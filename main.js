@@ -1,6 +1,6 @@
  require.config({
             paths : {
-                "jquery" : ["http://libs.baidu.com/jquery/2.0.3/jquery","jquery/jquery-1.7.1.min.js"],
+                "jquery" : "jquery/jquery-1.7.1.min",
                 "carousel":"carousel" 
             },
             shim:{
