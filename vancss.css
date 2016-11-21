@@ -1,0 +1,728 @@
+ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, th, td {
+margin: 0;
+padding: 0;
+}
+  
+
+
+  .vanclHead {
+  	width: 100%;
+  	height: auto;
+  }
+
+  body {
+  	font-size: 12px;
+  	font-family: "宋体"
+  	color:#333;
+  }
+  .headerTopAreaBox {
+  	width: 100%;
+  	height: 32px;
+  	background: #fff;
+  	border-bottom:  1px; solid #ccc;
+  	color: #808080;
+  }
+  .headerTopArea {
+  	width: 100%;
+  	height: 31px;
+  	background: #f7f7f7;
+  }
+.headerTopArea  .headerTop {
+	width: 980px;
+	height: 31px;
+	line-height: 32px;
+	margin: 0 auto;
+	background: #f7f7f7;
+}
+.headerTopArea .headerTopRight {
+	width: 420px;
+	float: right;
+	position: relative;
+	z-index: 9000;
+}
+
+.headerTopArea #myVancl, 
+.headerTopArea #vanclMap, 
+.headerTopArea #vanclHelp, 
+.headerTopArea #vanclCustomer {
+width: 70px;
+height: 18px;
+line-height: 18px;
+margin: 7px 0px 0 0px;
+float: left;
+display: inline;
+position: relative;
+z-index: 1000;
+cursor: pointer;
+}
+.headerTopArea .mapDropTitle {
+background-position: 0px 0px;
+display: block;
+}
+.headerTopArea .mapDropTitle, .headerTopArea .hover .mapDropTitle {
+background: url(vanimg/notice.png) no-repeat scroll 0px 0px;
+width: 55px;
+padding-left: 26px;
+text-align: left;
+}
+.headerTopArea .payattention {
+  float: right;
+
+}
+
+.payattention em {
+background-position: 0px -117px;
+width: 47px;
+height: 22px;
+display: none;
+border: 1px solid red;
+}
+.vweixinbox {
+float: left;
+position: relative;
+}
+
+
+.vweixinbox .vweixinTip {
+position: absolute;
+width: 148px;
+height: 169px;
+right: 0px;
+top: 30px;
+border: 1px solid #e5e5e5;
+background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat;
+overflow: hidden;
+display: none;}
+
+.vweixinbox .vweixin {
+background-position: -24px -23px;
+float: left;
+margin-left: 10px;
+display: inline;
+cursor: pointer;
+height: 21px;
+width: 20px;
+}
+
+.payattention a.vanclweibo{
+background-position: -48px -23px;
+width: 20px;
+height: 25px;
+float: left;
+}
+
+.headerTopArea .headerTopLeft {
+	min-width: 240px;
+	float: right;
+}
+.headerTopArea .loginArea { float: left; }
+.headerTopArea .recommendArea {
+	margin: 0px 0 0 8px;
+	float: left;
+	display: inline;
+}
+.headerTopArea .recommendArea a {
+	padding-right: 9px;
+}
+.headerTopAreaBox a{
+	color: #808080;
+}
+.blank0 {
+	display: block;
+	width: 100%;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+	clear: both;
+	overflow: hidden;
+}
+.vanclLogoSearch {
+	width: 980px;
+	height: 62px;
+	margin: 20px auto 25px;
+}
+
+
+h1 ,h2,h3 ,h4,h5 ,h6 {
+	font-size: 100%;
+	font-weight: normal;
+	}
+
+a:link, a:visited {
+	color: #333;
+	text-decoration: none;
+}
+
+
+.fl{ float: left; }
+.vanclLogo {
+	width: 166px;
+	height: 47px;
+	padding: 0px 0px 0px 33px;
+}
+.vanclLogo a {
+	display: block;
+	width: 166px;
+	height: 47px;
+	background:  url(vanimg/logo.png) no-repeat scroll 0px -59px;
+	text-indent:-9999px;
+}
+ h1 {
+ 	display: block;
+ 	-webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+ }
+.fr{float: right;}
+
+.vanclSearch {
+	width: 438px;
+	padding-top: 8PX;
+}
+
+.searchTab {
+	height: 29px;
+}
+
+.searchTab .fl {
+	float: left;
+}
+.searchTab .Enter {
+	width: 249px;
+	height: 27px;
+	padding: 0px 5px;
+	line-height: 27px;
+	border: 1px solid #c9caca;
+}
+
+.searchTab .btn {
+width: 49px;
+height: 29px;
+border: none;
+cursor: pointer;
+
+background: url(vanimg/logo.png) no-repeat scroll -100px 0px;
+}
+
+.searchTab .active {
+	width: 105px;
+	height: 27px;
+	border: 1px solid #c1383e;
+	background: url(vanimg/logo.png) no-repeat scroll -154px 0;
+	position:relative;
+	z-index: 10;
+	float: right;
+}
+.searchTab .hover {
+	width: 105px;
+	height: 27px;
+	border: 1px solid #c1383e;
+	border-bottom: 1px solid #ffffff;
+	background: url(vanimg/logo.png) no-repeat scroll -153px -29px;
+	position:relative;
+	z-index: 100;
+	float: right;
+}
+.searchTab .active a.cartab:link, 
+.searchTab .active a.cartab:visited, 
+.searchTab .active a.cartab:hover, 
+.searchTab .active a.cartab:active {
+color: #ffffff;
+}
+
+.searchTab .hover a.cartab:link, 
+.searchTab .hover a.cartab:visited, 
+.searchTab .hover a.cartab:hover, 
+.searchTab .hover a.cartab:active {
+color: #b81c22;
+}
+
+.searchTab .active a.cartab {
+         display: block;
+         padding-left: 29px;
+         padding-top: 6px;
+         font-size: 12px;
+         color: #ffffff;
+         }
+
+
+.searchTab .hover p a {
+         display: block;
+         padding-left: 29px;
+         padding-top: 6px;
+         font-size: 12px;
+         color: #ffffff;
+         }
+ .searchTab .hover .bottomlines{
+    background: #ffffff;
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    top: 25px;
+    z-index: 10;
+ }
+.BuycarTab {
+	width: 315px;
+	height: auto;
+	padding: 5px;
+	border: 1px solid #b81c22;
+	position: absolute;
+	right: -1px;
+	top: 27px;
+	background: #ffffff;
+	display: none;
+
+	
+}
+.hotWord {
+	width: 440px;
+	padding-top: 5px;
+	line-height: 18px;
+	color: #727171;
+	padding-left: 15px;
+}
+
+.hotWord p a:link { color: #727171; margin: 0 5px 0 0;}
+.hotWord P a {
+	padding-left: 5px;
+}
+a:link { text-decoration: none; }
+.vanclNav {
+	width: 980px;
+	height: 49px;
+	margin: 0px auto;
+}
+.vanclNav .allProduct {
+	width: 98px;
+	height: 49px;
+	color: #333;
+	position: relative;
+}
+
+.vanclNav .allProduct a {
+display: block;
+width: 100%;
+height: 100%;
+line-height: 49px;
+text-align: center;
+color: #333;
+font-size: 17px;
+font-family: "Microsoft Yahei";
+}
+.vanclNav .fl{
+	float: left;
+}
+
+#V_Category{
+	position: relative;
+	z-index: 1000;
+}
+.vanclNav ul {
+	margin: 0px;
+	padding: 0px;
+	width: 882px;
+}
+.fr {float: right;}
+
+.vanclNav ul li {
+	float: left;
+	width: 98px;
+	position: relative;
+}
+
+li{list-style: none;}
+.vanclNav ul li a:link {
+	color: #333;
+}
+.vanclNav ul li a{
+	display: block;
+	width: 98px;
+	height: 49px;
+	line-height: 49px;
+	font-size: 17px;
+	text-align: center;
+	font-family: "Microsoft Yahei";
+
+}
+.NavLine {
+	display: block;
+	height: 18px;
+	width: 1px;
+	border-right: solid  1px #888;
+	position: absolute;
+	right: 1px;
+	top:16px;
+	overflow: hidden;
+}
+.vanclCon {
+	width: 980px;
+	height: auto;
+	margin: 0px auto;
+	
+}
+.vanclFocusAd{
+	width: 710px;
+}
+.vanclFocus {
+	width: 1200px;
+	height: 535px;
+	overflow: hidden;
+	position: relative;
+	z-index: 5;
+}
+.foucsTab {
+	width: 710px;
+	height: 535px;
+}
+.slider {
+   position: absolute;
+   padding: 0;
+   margin: 0;
+}
+
+.slider li{
+    width: 1200px;
+	height: 535px;
+	list-style: none;
+	float: left;
+	
+
+
+	
+
+
+}
+
+#rslides1_s0{
+	background: url(vanimg/big0.jpg) 50% 0px no-repeat scroll ;
+}
+#rslides1_s1{
+	background: url(vanimg/big1.jpg) 50% 0px no-repeat scroll ;
+}
+#rslides1_s2{
+	background: url(vanimg/big2.jpg) 50% 0px no-repeat scroll ;
+}
+
+#rslides1_s3{
+	background: url(vanimg/big0.jpg) 50% 0px no-repeat scroll ;
+}
+#rslides1_s4{
+	background: url(vanimg/big1.jpg) 50% 0px no-repeat scroll ;
+}
+#rslides1_s5{
+	background: url(vanimg/big2.jpg) 50% 0px no-repeat scroll ;
+}
+
+.foucsTab .prev{
+	background: url(vanimg/flag.png);
+    position: absolute;
+    left: 10px;
+	top: 230px;
+	height: 60px;
+    width: 28px;
+                   }
+ .foucsTab .next {
+ 	background: url(vanimg/flag.png) scroll -52px 0px;
+ 	position: absolute;
+ 	right: 10px;
+	top: 230px;
+	
+ 
+ }
+.foucsTab .prev ,.foucsTab .next {
+	cursor: pointer;
+	height: 60px;
+	width: 28px;
+	z-index: 10;
+	text-indent: -9999px;
+	display: inline-block;
+}
+a:link ,a:visited{
+	color: #333;
+	text-decoration: none;
+}
+.foucsTab .rslides_tabs{
+	margin: 0;
+	height: 12px;
+	width: 150px;
+	position: absolute;
+	right: 46%;
+	top:500px;
+	z-index: 3;
+
+}
+.foucsTab .rslides_tabs li {
+	width: 12px;
+	height: 12px;
+	float: left;
+	display: inline;
+	margin-right: 8px;
+	cursor: pointer;
+	
+	
+}
+
+.li_color{
+	background: #a10000;
+}
+.piclist {
+	width: 1200px;
+}
+
+.piclist h2 {	
+text-align: center;
+line-height: 50px;
+margin: 30px 0px;
+font-family: "Microsoft YaHei";
+color: #9a9a9a;
+font-size: 18px;
+}
+
+.qianggoulist ul li {
+	float: left;
+	width: 214px;
+	margin: 0px 30px 32px 0px;
+	border: 1px solid #e8e7ec;
+	display: inline;
+	font-family: "Microsoft Yahei";
+	color: #727171;
+	font-size: 14px;
+	position: relative;
+
+}
+
+.qianggoulist ul li em {
+font-size: 16px;
+font-family: "Aril";
+color: #a10000;
+font-weight: bold;
+}
+.blank0{
+	display: block;
+	width: 100%;
+	height: 0px;
+	line-height: 0px;
+	font-size: 0px;
+	clear: both;
+	overflow: hidden;
+
+}
+.shangzhuanglist {
+	overflow: hidden;
+}
+ul, menu, dir {
+display: block;
+list-style-type: disc;
+-webkit-margin-before: 1em;
+-webkit-margin-after: 1em;
+-webkit-margin-start: 0px;
+-webkit-margin-end: 0px;
+-webkit-padding-start: 40px;
+}
+.shangzhuanglist ul  li.pic_one {
+	width: 590px;
+}
+.shangzhuanglist ul li.pic_two {
+	width: 290px;
+}
+.shanghzhuanglist ul li.pic_three {
+	width: 286;
+}
+.shangzhuanglist ul li {
+	float: left;
+	margin-left: 17px;
+	display: inline;
+}
+.shangzhuanglist ul li h3, .kuzhuanglist ul li h3 {
+height: 28px;
+padding: 20px 12px;
+line-height: 28px;
+border: 1px solid #e8e7ec;
+border-top: 0px;
+font-family: "Microsoft YaHei";
+font-size: 14px;
+}
+.shangzhuanglist ul li div {
+	margin-bottom: 12px;
+}
+li {
+	list-style: none;
+}
+img {
+	display: block;
+}
+.kuzhuanglist {
+	overflow: hidden;				
+}
+.kuzhuanglist ul li {
+	width: 285px;
+	height: 508px;
+	float: left;
+	display: inline;
+	margin-right: 20px;
+}
+.otherlist {
+	overflow: hidden;
+}
+.otherlist ul li {
+	float: left;
+	width: 385px;
+	height: 275px;
+	display: inline-block;
+	margin: 0px 22px 28px 0px;
+}
+.vanclFoot {
+	overflow: hidden;
+	width: 980px;
+	height: 282;
+	margin: 0px auto;
+	border: 1px solid #e0e0e1;
+	font-family: "Microsoft Yahei";
+	margin-bottom: 25px;
+}
+.vanclCustomer {
+	margin: 33px 0px 23px;
+	overflow: hidden;
+}
+.vanclCustomer ul{
+	margin: 0;
+	padding: 0;
+}
+.vanclCustomer ul li {
+	width: 320px;
+	height: 138px;
+	border-right: 1px solid #e0e0e1;
+}
+
+.vanclCustomer ul li p {
+text-align: center;
+font-size: 14px;
+color: #727171;
+line-height: 26px;
+}
+.vanclCustomer ul li.twocode p img {
+margin-bottom: 10px;
+}
+.vanclCustomer ul li p img {
+display: block;
+margin: 0px auto;
+}
+.vanclCustomer ul li p.onlineCustomer {
+margin: 15px auto 30px;
+}
+.vanclCustomer ul li p.onlineTime {
+margin: 0px auto;
+width: 156px;
+height: 32px;
+text-align: center;
+line-height: 32px;
+font-size: 14px;
+background: #b81c22;
+color: #ffffff;
+}
+.vanclOthers {
+	height: 46px;
+	padding: 17px 0px 0px 0px;
+	background: #f8f8f8;
+	width: 95%;
+	margin: 17px auto;
+}
+
+.vanclOthers ul {
+   margin: 0px;
+   padding: 0px;
+}
+.vanclOthers ul li {
+	float: left;
+	width: 153px;
+	text-align: center;
+	line-height: 26px;
+	border-right: 1px solid #dadadb;
+}
+
+.vanclFoot ul li {
+	float: left;
+}
+.publicfooterclear {
+	zoom:1;
+}
+.footBottom {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	border-top:1px solid #3e3a39;
+}
+.footBottomTab {
+	width: 1200px;
+	height: auto;
+	margin:10px auto;
+}
+.footBottomTab p {
+	text-align: center;
+	line-height: 25px;
+	color: #3e3a39;
+	font-family: "Microsoft Yahei";
+}
+.blank20 {
+	display: block;
+	width: 100%;
+	height: 20px;
+	line-height: 0px;
+	font-size: 0px;
+	clear: both;
+	overflow: hidden;
+}
+.subFooter {
+	width: 980px;
+	margin: 0px auto 25px;
+	text-align: center;
+}
+.subFooter .redLogo:link, .subFooter .redLogo:visited, .subFooter .redLogo:hover {
+background: url("vanimg/foot.png") no-repeat scroll 0 -581px  transparent;
+display: inline-block;
+height: 42px;
+width: 113px;
+}
+
+.subFooter .vanclMsg:link, .subFooter .vanclMsg:visited, .subFooter .vanclMsg:hover {
+background: url("vanimg/foot.png") no-repeat scroll -97px -675px transparent;
+display: inline-block;
+height: 42px;
+width: 101px;
+}
+
+.subFooter .wsjyBzzx:link, .subFooter .wsjyBzzx:visited, .subFooter .wsjyBzzx:hover {
+background: url("vanimg/foot.png") no-repeat scroll 0 -675px transparent;
+display: inline-block;
+height: 42px;
+width: 96px;
+}
+
+#footerArea .vanclqingNian:link, #footerArea .vanclqingNian:visited, #footerArea .vanclqingNian:hover {
+background: url("vanimg/foot.png") no-repeat scroll -202px -675px transparent;
+display: inline-block;
+height: 42px;
+width: 42px;
+}
+.subFooter .costumeOrg {
+background: url("vanimg/foot.png") no-repeat scroll 0 -629px transparent;
+display: inline-block;
+height: 45px;
+width: 156px;
+}
+.BayWindow {
+	width: 73px;
+	height: 205px;
+	border: 1px solid #b81b22;
+	border-bottom: none;
+	margin-bottom: 30px;
+}
+.BayWindow ul li {
+	width: 73px;
+	border-bottom: 1px solid #b81b22;
+}
+.BayWindow ul li.downApp a {
+height: 76px;
+background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -1px;
+}
